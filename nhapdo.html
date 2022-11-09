@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <p> Nhập độ C</p> <input type="text" name="ĐoC" value="" id="doC"> <button onclick="convert()">Convert</button>
+     <p id="result">độ F:</p>
+ <script>
+     function convert() {
+         let doC= document.getElementById("doC").value;
+         let dOc= parseInt(doC)
+         KQ= 9*dOc/5 +32
+         document.getElementById("result").innerHTML= ("độ F: " +KQ)
+     }
+
+
+
+
+
+ </script>
+
+</body>
+</html>
